@@ -1,0 +1,24 @@
+application: PennsburyTetris
+version: 1-2-5-without-total-hs
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  static_files: tetris/index.html
+  upload: tetris/index.html
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /tetris/(.+)
+  static_files: tetris/\1
+  upload: tetris/(.*)
+
+- url: /score/.*
+  script: highscore.py
+
+- url: /(.+)
+  static_files: tetris/\1
+  upload: tetris/(.*)
