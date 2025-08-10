@@ -1,4 +1,4 @@
-# Tetris [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcgolden15%2Ftetris&count_bg=%2379C83D&title_bg=%23555555&icon=html5.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+# Tetris ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fcgolden15%2Ftetris%2Ftree%2Fmain&label=Visits&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)
 Robust version of Twitch Tetris. Created to bypass school blocks &amp; to add a few updates of my own. To host yourself, just clone the repo and publish to github pages or fork it as a repl.
 
 
